@@ -39,26 +39,25 @@ public class InheritanceController
 		
 		if(new Hearing() instanceof LoudNoises)
 		{
-			testOutput += "The volume of Duncan's clap is " + hearing.scream() + " (Duncan Nguyen)\n";
+			testOutput += "The volume of scream is " + hearing.scream() + " (Scream)\n";
 		}
 		
 		if(new NoisesThatAreLoud() instanceof LoudNoises)
 		{
-			testOutput += "The sound a car makes is " + loudNoises.carHorn() + " (Isaac Hill)\n";
+			testOutput += "The sound a car makes is " + loudNoises.carHorn() + " (Car)\n";
 		}
 		
 		if(new Sound() instanceof LoudNoises)
 		{
-			testOutput += "The volume of a 2.0 decible sound is " + sound.noiseVolume(2.0) + " (Matt Hachtel)\n";	
+			testOutput += "The volume of a 2.0 decible sound is " + sound.noiseVolume(2.0) + " (Pitch)\n";	
 		}
 		
 		if(new Slurp() instanceof LoudNoises)
 		{
-			testOutput += "The sound of shotgun blast is " + slurp.shotgunBlast() + " (Patrick Brashear)";
+			testOutput += "The sound of shotgun blast is " + .shotgunBlast() + " (Shotgun Blast)";
 		}
 		
 		return testOutput;
 	}
 }
 
-}
